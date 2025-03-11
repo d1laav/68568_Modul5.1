@@ -57,17 +57,17 @@ class MainActivity : ComponentActivity() {
                     onEmailClick = viewModel::setSelectedEmail
                 )
 
-                val adaptiveInfo = currentWindowAdaptiveInfo()
-                val sizeClassText =
-                    "${adaptiveInfo.windowSizeClass.windowWidthSizeClass}\n" +
-                    "${adaptiveInfo.windowSizeClass.windowHeightSizeClass}"
-                Text(
-                    text = sizeClassText,
-                    color = Color.Magenta,
-                    modifier = Modifier.padding(
-                        WindowInsets.safeDrawing.asPaddingValues()
-                    )
-                )
+//                val adaptiveInfo = currentWindowAdaptiveInfo()
+//                val sizeClassText =
+//                    "${adaptiveInfo.windowSizeClass.windowWidthSizeClass}\n" +
+//                    "${adaptiveInfo.windowSizeClass.windowHeightSizeClass}"
+//                Text(
+//                    text = sizeClassText,
+//                    color = Color.Magenta,
+//                    modifier = Modifier.padding(
+//                        WindowInsets.safeDrawing.asPaddingValues()
+//                    )
+//                )
             }
         }
     }

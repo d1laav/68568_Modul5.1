@@ -65,6 +65,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.material3.adaptive.navigation.suite.android)
     val composeBom = platform(libs.androidx.compose.bom)
     implementation(composeBom)
     androidTestImplementation(composeBom)
@@ -85,6 +86,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     // adding adaptable library
     implementation(libs.androidx.material3.adaptive)
+    // adding Navigation suite
+    implementation(libs.androidx.material3.adaptive.navigation.suite)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
