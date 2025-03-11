@@ -83,6 +83,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.window)
     implementation(libs.kotlinx.coroutines.android)
+    // adding adaptable library
+    implementation(libs.androidx.material3.adaptive)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
